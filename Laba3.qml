@@ -32,11 +32,11 @@ Item {
             anchors.bottom: parent.bottom
             width: parent.width/3
             text: "Стрелка вверх"
-            onClicked: {
+            onClicked: {/*
                 loadCon.source=""
                 mainSys.command = "cat /proc/cpuinfo"
                 mainSys.execute()
-                loadCon.source="ConsoleView.qml"
+                loadCon.source="ConsoleView.qml"*/
             }
         }
         ButtonMenu{
@@ -46,11 +46,11 @@ Item {
             anchors.bottom: parent.bottom
             width: parent.width/3
             text: "Функциональная клавиша"
-            onClicked: {
+            onClicked: {/*
                 loadCon.source=""
                 mainSys.command = "cat /proc/meminfo"
                 mainSys.execute()
-                loadCon.source="ConsoleView.qml"
+                loadCon.source="ConsoleView.qml"*/
             }
         }
     }

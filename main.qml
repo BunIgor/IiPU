@@ -70,36 +70,36 @@ ApplicationWindow {
                 }
             }
             ButtonMenu{
-                text: "Клавиатура"
+                text: "RS-232"
                 id: l4
                 anchors.left: l3.right
                 anchors.top: parent.top
                 anchors.bottom: parent.bottom
                 width: parent.width/6
                 onClicked: {
-                    lo.source="Laba3.qml"
+                    lo.source="Laba4.qml"
                 }
             }
             ButtonMenu{
-                text: "Клавиатура"
+                text: "Модуль 40"
                 id: l5
                 anchors.left: l4.right
                 anchors.top: parent.top
                 anchors.bottom: parent.bottom
                 width: parent.width/6
                 onClicked: {
-                    lo.source="Laba3.qml"
+                    lo.source="Laba5.qml"
                 }
             }
             ButtonMenu{
-                text: "Клавиатура"
+                text: "GIT"
                 id: l6
                 anchors.left: l5.right
                 anchors.top: parent.top
                 anchors.bottom: parent.bottom
                 width: parent.width/6
                 onClicked: {
-                    lo.source="Laba3.qml"
+                    lo.source="Laba6.qml"
                 }
             }
         }
