@@ -22,40 +22,11 @@ ApplicationWindow {
         anchors.fill: parent
         focus:true
         Keys.onPressed: {
-<<<<<<< HEAD
-            if (event.key == Qt.Key_1 && klav1==1){
-=======
             if (event.key == Qt.Key_1 && klav1){
->>>>>>> 6c065764ec1e51f8f393c6073d6b976630dcfd7b
                 klav1=0
                 lo.item.l3wait()
                 kw.GoriAndPogasni()
             }
-<<<<<<< HEAD
-            else if (event.key == Qt.Key_Up && klav1==2){
-                klav1=0
-                lo.item.l31press()
-                klav1=3
-            }
-            else if(klav1==3){
-                klav1=0
-                if(event.key == Qt.Key_CapsLock){
-                    lo.item.l31thiskey(1)
-                }
-                else if(event.key == Qt.Key_NumLock){
-                    lo.item.l31thiskey(2)
-                }
-                else{
-                    lo.item.l31thiskey(0)
-                }
-            }
-            else if(event.key == Qt.Key_Escape && klav1==4){
-                klav1=0
-                kw.InversCapsAndNum()
-                lo.item.l33press()
-            }
-=======
->>>>>>> 6c065764ec1e51f8f393c6073d6b976630dcfd7b
         }
         Item{
             property string backgr: "white"
@@ -110,11 +81,7 @@ ApplicationWindow {
                 }
             }
             ButtonMenu{
-<<<<<<< HEAD
-                text: "COM-порт"
-=======
                 text: "Модуль 40"
->>>>>>> 6c065764ec1e51f8f393c6073d6b976630dcfd7b
                 id: l5
                 anchors.left: l4.right
                 anchors.top: parent.top
