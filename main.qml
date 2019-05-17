@@ -22,16 +22,11 @@ ApplicationWindow {
         anchors.fill: parent
         focus:true
         Keys.onPressed: {
-<<<<<<< HEAD
-            if (event.key == Qt.Key_1 && klav1==1){
-=======
             if (event.key == Qt.Key_1 && klav1){
->>>>>>> 6c065764ec1e51f8f393c6073d6b976630dcfd7b
                 klav1=0
                 lo.item.l3wait()
                 kw.GoriAndPogasni()
             }
-<<<<<<< HEAD
             else if (event.key == Qt.Key_Up && klav1==2){
                 klav1=0
                 lo.item.l31press()
@@ -54,13 +49,11 @@ ApplicationWindow {
                 kw.InversCapsAndNum()
                 lo.item.l33press()
             }
-=======
->>>>>>> 6c065764ec1e51f8f393c6073d6b976630dcfd7b
         }
         Item{
             property string backgr: "white"
             property string cac: "red"
-            id:topMenu
+            id: topMenu
             anchors.top: parent.top
             anchors.left: parent.left
             anchors.right: parent.right
@@ -110,11 +103,11 @@ ApplicationWindow {
                 }
             }
             ButtonMenu{
-<<<<<<< HEAD
+
                 text: "COM-порт"
-=======
-                text: "Модуль 40"
->>>>>>> 6c065764ec1e51f8f393c6073d6b976630dcfd7b
+
+                //text: "Модуль 40"
+
                 id: l5
                 anchors.left: l4.right
                 anchors.top: parent.top
@@ -173,30 +166,29 @@ ApplicationWindow {
                 lo.item.l3stop()
             }
         }
-    }
 
-    NumberAnimation{
-        id:an21
-        target: megaItem
-        property: "superOpac"
-        to:0.0
-        duration: 500
-        onStopped: {
-            megaItem.superClr=megaItem._superClr
-            an22.start()
+
+        NumberAnimation{
+            id:an21
+            target: megaItem
+            property: "superOpac"
+            to:0.0
+            duration: 500
+            onStopped: {
+                megaItem.superClr=megaItem._superClr
+                an22.start()
+            }
+        }
+        NumberAnimation{
+            id:an22
+            target: megaItem
+            property: "superOpac"
+            to:1.0
+            duration: 500
         }
     }
-    NumberAnimation{
-        id:an22
-        target: megaItem
-        property: "superOpac"
-        to:1.0
-        duration: 500
-    }
-
     function setClr(str){
         an21.start()
         megaItem._superClr=str
     }
 }
-

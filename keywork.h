@@ -16,10 +16,10 @@ public:
 
     Q_INVOKABLE void GoriAndPogasni();
     Q_INVOKABLE void getState();
-<<<<<<< HEAD
+//
     Q_INVOKABLE void InversCapsAndNum();
-=======
->>>>>>> 6c065764ec1e51f8f393c6073d6b976630dcfd7b
+//
+//
 
     bool getCaps();
     bool getNum();

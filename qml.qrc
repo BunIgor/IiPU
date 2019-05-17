@@ -13,10 +13,7 @@
         <file>Laba4.qml</file>
         <file>Laba5.qml</file>
         <file>Laba6.qml</file>
-<<<<<<< HEAD
         <file>EcranUpArrowKey.qml</file>
         <file>EcranFunc.qml</file>
-=======
->>>>>>> 6c065764ec1e51f8f393c6073d6b976630dcfd7b
     </qresource>
 </RCC>

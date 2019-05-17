@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import QtQuick 2.5
 import QtQuick.Controls 1.4
 import QtGraphicalEffects 1.0
@@ -25,11 +24,4 @@ Item {
             horizontalAlignment: Text.AlignHCenter
         }
     }
-=======
-import QtQuick 2.0
-
-Item {
-
->>>>>>> 6c065764ec1e51f8f393c6073d6b976630dcfd7b
 }
-

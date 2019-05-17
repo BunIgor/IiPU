@@ -32,18 +32,12 @@ Item {
             anchors.bottom: parent.bottom
             width: parent.width/3
             text: "Стрелка вверх"
-<<<<<<< HEAD
+
             onClicked: {
                 megaItem.klav1=2
                 loadCon.source=""
                 loadCon.source="EcranUpArrowKey.qml"
-=======
-            onClicked: {/*
-                loadCon.source=""
-                mainSys.command = "cat /proc/cpuinfo"
-                mainSys.execute()
-                loadCon.source="ConsoleView.qml"*/
->>>>>>> 6c065764ec1e51f8f393c6073d6b976630dcfd7b
+
             }
         }
         ButtonMenu{
@@ -53,18 +47,12 @@ Item {
             anchors.bottom: parent.bottom
             width: parent.width/3
             text: "Функциональная клавиша"
-<<<<<<< HEAD
+
             onClicked: {
                 megaItem.klav1=4
                 loadCon.source=""
                 loadCon.source="EcranFunc.qml"
-=======
-            onClicked: {/*
-                loadCon.source=""
-                mainSys.command = "cat /proc/meminfo"
-                mainSys.execute()
-                loadCon.source="ConsoleView.qml"*/
->>>>>>> 6c065764ec1e51f8f393c6073d6b976630dcfd7b
+
             }
         }
     }
@@ -95,7 +83,7 @@ Item {
     function l3stop(){
         loadCon.item.stop()
     }
-<<<<<<< HEAD
+
 
     function l31press(){
         loadCon.item.press()
@@ -108,6 +96,6 @@ Item {
     function l33press(){
         loadCon.item.press()
     }
-=======
->>>>>>> 6c065764ec1e51f8f393c6073d6b976630dcfd7b
+
+
 }
